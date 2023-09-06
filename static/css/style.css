@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+
+/* MAIN */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.form-select {
+    margin: 0;
+}
+
+h1.card-title {
+    margin-bottom: 40px;
+}
+
+label {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* LOGIN */
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navtop, h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+#navbot, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+#bg {
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 80px 0;
+}
+#sub {
+    margin: 20px;
+}
+/* FORM */
+#user-form {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+}
+
+#latInput, #lngInput, #url {
+    margin: 5px;
+    width: 250px;
+}
+
+.btn {
+    color: #000000;
+    margin: 50px 30px;
+    height: 50px;
+    width: 140px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+a {
+    color: #24a0ed;
+    margin: 0;
+    height: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+.note {
+    padding: 20px;
+    background-color: rgba(13,202,240,0.7);
+    height: max-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 40%;
+
+}
