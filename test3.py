@@ -43,7 +43,7 @@ def get_address(address, destination):
         return 'Error'
 
 
-def main(url, destination_):
+def main_func(url, destination_):
     # Define the scope and credentials
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
     credentials = ServiceAccountCredentials.from_json_keyfile_name(r'D:\PycharmProjects\test\creds.json', scope)
